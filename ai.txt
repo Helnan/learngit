@@ -1,1 +1,2 @@
 这就是爱，哎哎
+pattern=re.compile('<div.*?cover.*?href="(.*?)".*?title="(.*?)".*?more-meta.*?title">(.*?)</span>.*?year">(.*?)</span>.*?publisher">(.*?)</span>.*?div>',re.S)
